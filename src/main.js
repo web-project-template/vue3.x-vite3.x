@@ -18,3 +18,6 @@ app.use(ElementPlus, {
   size: 'default'
 })
 app.mount('#app')
+
+const now = dayjs().format('YYYY-MM-DD HH:mm:ss');
+console.log({now})

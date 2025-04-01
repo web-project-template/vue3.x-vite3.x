@@ -2,12 +2,6 @@
   <div class="app-main">
     <router-view></router-view>
   </div>
-  <div class="app-nav">
-    <router-link to="/index">后台-主页</router-link>
-    <router-link to="/system/user">后台-系统-用户</router-link>
-    <router-link to="/login">登录</router-link>
-    <router-link to="/signin">注册</router-link>
-  </div>
 </template>
 
 <script setup>
