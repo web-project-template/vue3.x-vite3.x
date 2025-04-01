@@ -7,7 +7,7 @@ import locale from 'element-plus/es/locale/lang/zh-cn'
 import router from './router'
 import store from "./store"
 import App from './App.vue'
-import './common/styles/index.css'
+import './styles/index.css'
 
 const app = createApp(App)
 app.use(router)
